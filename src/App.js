@@ -1,4 +1,6 @@
 import Navbar from "./Navbar";
+import Home from "./Home";
+import Resume from "./Resume";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,8 +16,8 @@ function App() {
         </header>
         <main className="main-content">
             <Routes>
-              <Route path="/" element={ <p>HOME</p> } />
-              <Route path="/resume" element={ <p>RESUME</p> } />
+              <Route path="/" element={ <Home /> } />
+              <Route path="/resume" element={ <Resume /> } />
             </Routes>
         </main>
       </div>
