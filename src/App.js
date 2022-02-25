@@ -5,10 +5,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <header className=".header-content">
+        <header className="header-content">
           <h1>Ryan-D-P</h1>
           <a href="http://github.com/Ryan-D-P" target="_blank" rel="noopener noreferrer">
-            <img src="" alt="GitHub icon" />
+            <img src="" alt="GH-icon" />
           </a>
           <Navbar />
         </header>

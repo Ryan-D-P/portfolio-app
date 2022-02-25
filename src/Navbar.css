@@ -1,0 +1,21 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    margin: 3rem 5rem;
+}
+
+.nav-content {
+    display: flex;
+    gap: 100px;
+}
+
+.nav-link > a {
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.nav-link > a:hover {
+    color: hsl(25, 100%, 50%);
+}
