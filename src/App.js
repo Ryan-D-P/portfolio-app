@@ -10,12 +10,13 @@ export const UserContext = createContext(null);
 
 function App() {
   const [theme, setTheme] = useState(`orange`);
+  const [selectorPosition, setSelectorPosition] = useState(`left`);
   const [mode, setMode] = useState(`light`);
 
   return (
     <BrowserRouter>
       <div className="App">
-        <UserContext.Provider value={ {theme, setTheme, mode, setMode} }>
+        <UserContext.Provider value={ {theme, setTheme, mode, setMode, selectorPosition, setSelectorPosition} }>
           <header className="header-content">
             <h1 className={ `${`${theme}-theme-color`}` }>Ryan-D-P</h1>
             <a href="http://github.com/Ryan-D-P" target="_blank" rel="noopener noreferrer">
