@@ -1,0 +1,22 @@
+.ColorThemeSelect {
+    width: 80px;
+    cursor: pointer;
+}
+
+.select-wrapper {
+    background-color: var(--orange-theme-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+    border-radius: 25px;
+    padding: 0.5rem;
+    box-shadow: 0px 0px 10px 1px hsl(0, 0%, 0%);
+}
+
+.select-circle {
+    background-color: hsl(0, 0%, 100%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}

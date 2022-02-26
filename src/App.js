@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import Resume from "./Resume";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ColorThemeSelect from "./ColorThemeSelect";
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
           <Navbar />
         </header>
         <main className="main-content">
-            <Routes>
-              <Route path="/" element={ <Home /> } />
-              <Route path="/resume" element={ <Resume /> } />
-            </Routes>
+          <ColorThemeSelect />
+          <Routes>
+            <Route path="/" element={ <Home /> } />
+            <Route path="/resume" element={ <Resume /> } />
+          </Routes>
         </main>
       </div>
     </BrowserRouter>
