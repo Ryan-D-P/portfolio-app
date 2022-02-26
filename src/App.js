@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <UserContext.Provider value={ {theme, mode} }>
+        <UserContext.Provider value={ {theme, setTheme, mode, setMode} }>
           <header className="header-content">
             <h1 className={ `${`${theme}-theme-color`}` }>Ryan-D-P</h1>
             <a href="http://github.com/Ryan-D-P" target="_blank" rel="noopener noreferrer">
