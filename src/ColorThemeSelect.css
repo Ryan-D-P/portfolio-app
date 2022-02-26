@@ -4,7 +4,6 @@
 }
 
 .select-wrapper {
-    background-color: var(--orange-theme-color);
     display: flex;
     justify-content: flex-start;
     align-items: center;

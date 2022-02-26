@@ -6,12 +6,6 @@
 
 :root {
   --title-font: 2rem;
-  --orange-theme-color: hsl(20, 100%, 50%);
-  --orange-theme-background: hsl(25, 100%, 95%);
-  --green-theme-color: hsl(131, 86%, 25%);
-  --green-theme-background: hsl(131, 86%, 95%);
-  --blue-theme-color: hsl(208, 100%, 30%);
-  --blue-theme-background: hsl(208, 100%, 95%);
 }
 
 html {
@@ -27,7 +21,6 @@ body {
 }
 
 h1 {
-  color: var(--orange-theme-color);
   font-size: clamp(3rem, 3vw, 5rem);
 }
 

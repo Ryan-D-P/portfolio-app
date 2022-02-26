@@ -1,15 +1,16 @@
 import Navbar from "./Navbar";
+import ColorThemeSelect from "./ColorThemeSelect";
 import Home from "./Home";
 import Resume from "./Resume";
+import "./ColorThemes.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ColorThemeSelect from "./ColorThemeSelect";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <header className="header-content">
-          <h1>Ryan-D-P</h1>
+          <h1 className={ `${"orange-theme-color"}` }>Ryan-D-P</h1>
           <a href="http://github.com/Ryan-D-P" target="_blank" rel="noopener noreferrer">
             <img src="" alt="GH-icon" />
           </a>

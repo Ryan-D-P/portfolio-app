@@ -22,7 +22,3 @@
     font-weight: 700;
     font-size: 2.5rem;
 }
-
-.nav-link > a:hover {
-    color: var(--orange-theme-color);
-}

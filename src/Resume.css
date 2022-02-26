@@ -23,7 +23,6 @@
 }
 
 .resume-section {
-    background-color: var(--orange-theme-background);
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -34,10 +33,6 @@
     .resume-section {
         padding: 2rem;
     }
-}
-
-.resume-section > h2 {
-    color: var(--orange-theme-color);
 }
 
 .education > h3, .education > p, .experience > h3, .experience > p, .skills > h3, .skills > p {

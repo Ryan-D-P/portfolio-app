@@ -1,0 +1,57 @@
+:root {
+    --title-font: 2rem;
+    --orange-theme-background: hsl(25, 100%, 95%);
+    --orange-theme-color: hsl(20, 100%, 50%);
+    --green-theme-background: hsl(131, 86%, 95%);
+    --green-theme-color: hsl(131, 86%, 25%);
+    --blue-theme-background: hsl(208, 100%, 95%);
+    --blue-theme-color: hsl(208, 100%, 30%);
+}
+
+.orange-theme-bg {
+    background-color: var(--orange-theme-background);
+}
+
+.orange-theme-color {
+    color: var(--orange-theme-color);
+}
+
+.orange-bg {
+    background-color: var(--orange-theme-color);
+}
+
+.orange-theme-color__hover:hover {
+    color: var(--orange-theme-color);
+}
+
+.green-theme-bg {
+    background-color: var(--green-theme-background);
+}
+
+.green-theme-color {
+    color: var(--green-theme-color);
+}
+
+.green-bg {
+    background-color: var(--green-theme-color);
+}
+
+.green-theme-color__hover:hover {
+    color: var(--green-theme-color);
+}
+
+.blue-theme-bg {
+    background-color: var(--blue-theme-background);
+}
+
+.blue-theme-color {
+    color: var(--blue-theme-color);
+}
+
+.blue-bg {
+    background-color: var(--blue-theme-color);
+}
+
+.blue-theme-color__hover:hover {
+    color: var(--blue-theme-color);
+}
