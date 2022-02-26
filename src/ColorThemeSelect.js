@@ -19,7 +19,7 @@ const ColorThemeSelect = () => {
 
     return (
         <div className="ColorThemeSelect">
-            <div className={ `select-wrapper ${`${theme}-bg`} ${selectorPosition}` } onClick={ () => changeColorTheme() }>
+            <div className={ `select-wrapper ${theme}-bg ${selectorPosition}` } onClick={ changeColorTheme }>
                 <div className="select-circle"></div>
             </div>
         </div>

@@ -9,16 +9,20 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 export const UserContext = createContext(null);
 
 function App() {
+  // State to manage the page colour theme, brightness mode, and theme selector position
   const [theme, setTheme] = useState(`orange`);
   const [selectorPosition, setSelectorPosition] = useState(`left`);
   const [mode, setMode] = useState(`light`);
 
+  // State to manage the current page (highlight current page in the Navbar)
+  const [page, setPage] = useState(`home`);
+
   return (
     <BrowserRouter>
       <div className="App">
-        <UserContext.Provider value={ {theme, setTheme, mode, setMode, selectorPosition, setSelectorPosition} }>
+        <UserContext.Provider value={ {theme, setTheme, mode, setMode, selectorPosition, setSelectorPosition, page, setPage} }>
           <header className="header-content">
-            <h1 className={ `${`${theme}-theme-color`}` }>Ryan-D-P</h1>
+            <h1 className={ `${theme}-theme-color` }>Ryan-D-P</h1>
             <a href="http://github.com/Ryan-D-P" target="_blank" rel="noopener noreferrer">
               <img src="" alt="GH-icon" />
             </a>
