@@ -4,6 +4,26 @@
     margin: 3rem 5rem;
 }
 
+.light a {
+    color: hsl(0, 0%, 0%);
+}
+
+.dark a {
+    color: hsl(0, 0%, 100%);
+}
+
+.nav-link .orange-theme-color {
+    color: var(--orange-theme-color);
+}
+
+.nav-link .green-theme-color {
+    color: var(--green-theme-color);
+}
+
+.nav-link .blue-theme-color {
+    color: var(--blue-theme-color);
+}
+
 .nav-content {
     display: flex;
     align-items: center;
@@ -18,7 +38,6 @@
 
 .nav-link > a {
     text-decoration: none;
-    /* color: hsl(0, 0%, 0%); */
     font-weight: 700;
     font-size: 2.5rem;
 }

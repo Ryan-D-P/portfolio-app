@@ -8,6 +8,10 @@
     gap: 50px;
 }
 
+.Resume a {
+    color: hsl(240, 100%, 50%);
+}
+
 @media screen and (min-width: 1400px) {
     .Resume {
         flex-direction: row;
@@ -20,6 +24,14 @@
     flex-direction: column;
     gap: 50px;
     max-width: 1000px;
+}
+
+.light .profile-column {
+    color: hsl(0, 0%, 0%);
+}
+
+.dark .profile-column {
+    color: hsl(0, 0%, 100%);
 }
 
 .resume-section {
@@ -43,10 +55,6 @@
     .education > h3, .education > p, .experience > h3, .experience > p, .skills > ul {
         margin-left: var(--text-indent);
     }
-}
-
-.experience a {
-    color: hsl(240, 100%, 50%);
 }
 
 .skills-list {

@@ -3,10 +3,10 @@ import { UserContext } from "./App.js";
 import { useContext } from "react";
 
 const Resume = () => {
-    const { theme } = useContext(UserContext);
+    const { theme, mode } = useContext(UserContext);
 
     return (
-        <div className="Resume">
+        <div className={ `Resume ${mode}` }>
             <div className="profile-column">
                 <h2>Ryan-D-P</h2>
                 <a href="http://github.com/Ryan-D-P" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P</a>
@@ -15,20 +15,20 @@ const Resume = () => {
                 <section className={ `resume-section education-section ${theme}-theme-bg` }>
                     <h2 className={ `${theme}-theme-color` }>Education</h2>
                     <div className="education">
-                        <h3>Bachelor of Computer Science (in progress).</h3>
+                        <h3>Bachelor of Computer Science (in progress)</h3>
                     </div>
                     <div className="education">
-                        <h3>Diploma of Software Development (2018-2019).</h3>
+                        <h3>Diploma of Software Development (2018-2019)</h3>
                     </div>
                 </section>
                 <section className={ `resume-section experience-section ${theme}-theme-bg` }>
                     <h2 className={ `${theme}-theme-color` }>Experience</h2>
                     <div className="experience">
-                        <h3>Interactive Comments Section. (<a href="http://github.com/Ryan-D-P/interactive-comments-section" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/interactive-comments-section</a>)</h3>
+                        <h3>Interactive Comments Section (<a href="http://github.com/Ryan-D-P/interactive-comments-section" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/interactive-comments-section</a>)</h3>
                         <p>A React project which displays a list of user comments from a local JSON file; the app also provide CRUD-like operations to interact with the comments, such as posting a new comment, replying to a comment, upvoting/downvoting a comment, deleting comments posted by the current user, and editing previously posted comments/replies of the current user.</p>
                     </div>
                     <div className="experience">
-                        <h3>Product Page. (<a href="https://github.com/Ryan-D-P/product-page" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/product-page</a>)</h3>
+                        <h3>Product Page (<a href="https://github.com/Ryan-D-P/product-page" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/product-page</a>)</h3>
                         <p>An e-commerce product page using React which includes an image gallery (with a lightbox), a button to add an item to the cart, and a cart menu which uses state to track the number of items in the cart and to display items in the cart according to their quantity and price.</p>
                     </div>
                 </section>

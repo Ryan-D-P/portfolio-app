@@ -55,3 +55,11 @@
 .blue-theme-color__hover:hover {
     color: var(--blue-theme-color);
 }
+
+.light {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.dark {
+    background-color: hsl(0, 0%, 10%);
+}

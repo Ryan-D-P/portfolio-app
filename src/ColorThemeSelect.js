@@ -1,9 +1,12 @@
 import "./ColorThemeSelect.css";
 import { UserContext } from "./App.js";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 
 const ColorThemeSelect = () => {
-    const { theme, setTheme, selectorPosition, setSelectorPosition } = useContext(UserContext);
+    const { theme, setTheme } = useContext(UserContext);
+
+    // State manages where selector circle is positioned in color theme selector
+    const [selectorPosition, setSelectorPosition] = useState(`left`);
 
     const changeColorTheme = () => {
         const themes = [`orange`, `green`, `blue`], positions = [`left`, `center`, `right`];
