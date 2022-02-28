@@ -13,23 +13,23 @@ export const UserContext = createContext(null);
 function App() {
   // State to manage the page colour theme, brightness mode
   const [theme, setTheme] = useState(`orange`);
-  const [mode, setMode] = useState(`light`);
+  const [mode, setMode] = useState(`dark`);
+
+  // Change the lighting mode of the page
+  const changeMode = () => setMode(mode === `light` ? `dark` : `light`);
 
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className={ `App ${mode}` }>
         <UserContext.Provider value={ {theme, setTheme, mode} }>
           <header className={ `header-content ${mode}` }>
             <h1 className={ `${theme}-theme-color` }>Ryan-D-P</h1>
-            <a href="http://github.com/Ryan-D-P" target="_blank" rel="noopener noreferrer">
-              <img src="" alt="GH-icon" />
-            </a>
             <Navbar />
           </header>
           <main className={ `main-content ${mode}` }>
             <div className="selectors-wrapper">
               <ColorThemeSelect />
-              <div className="mode-selector-wrapper">
+              <div className="mode-selector-wrapper" onClick={ changeMode }>
                 <img src={ mode === `light` ? themeLight : themeDark } alt={ `theme-light` } />
               </div>
             </div>

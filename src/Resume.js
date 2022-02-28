@@ -12,7 +12,7 @@ const Resume = () => {
                 <a href="http://github.com/Ryan-D-P" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P</a>
             </div>
             <div className="sections-column">
-                <section className={ `resume-section education-section ${theme}-theme-bg` }>
+                <section className={ `resume-section education-section ${theme}-theme-bg-${mode}` }>
                     <h2 className={ `${theme}-theme-color` }>Education</h2>
                     <div className="education">
                         <h3>Bachelor of Computer Science (in progress)</h3>
@@ -21,7 +21,7 @@ const Resume = () => {
                         <h3>Diploma of Software Development (2018-2019)</h3>
                     </div>
                 </section>
-                <section className={ `resume-section experience-section ${theme}-theme-bg` }>
+                <section className={ `resume-section experience-section ${theme}-theme-bg-${mode}` }>
                     <h2 className={ `${theme}-theme-color` }>Experience</h2>
                     <div className="experience">
                         <h3>Interactive Comments Section (<a href="http://github.com/Ryan-D-P/interactive-comments-section" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/interactive-comments-section</a>)</h3>
@@ -32,7 +32,7 @@ const Resume = () => {
                         <p>An e-commerce product page using React which includes an image gallery (with a lightbox), a button to add an item to the cart, and a cart menu which uses state to track the number of items in the cart and to display items in the cart according to their quantity and price.</p>
                     </div>
                 </section>
-                <section className={ `resume-section skills-section ${theme}-theme-bg` }>
+                <section className={ `resume-section skills-section ${theme}-theme-bg-${mode}` }>
                     <h2 className={ `${theme}-theme-color` }>Skills</h2>
                     <div className="skills">
                         <ul className="skills-list">
