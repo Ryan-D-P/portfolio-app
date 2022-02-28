@@ -45,6 +45,10 @@
     }
 }
 
+.experience a {
+    color: hsl(240, 100%, 50%);
+}
+
 .skills-list {
     padding: 0rem 1rem;
 }
