@@ -13,7 +13,7 @@ export const UserContext = createContext(null);
 function App() {
   // State to manage the page colour theme, brightness mode
   const [theme, setTheme] = useState(`orange`);
-  const [mode, setMode] = useState(`dark`);
+  const [mode, setMode] = useState(`light`);
 
   // Change the lighting mode of the page
   const changeMode = () => setMode(mode === `light` ? `dark` : `light`);
