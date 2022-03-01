@@ -75,13 +75,13 @@ p, a, li {
 .main-content {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 70px;
   padding: 0;
 }
 
 @media screen and (min-width: 1400px) {
   .main-content {
-    padding: 3rem 5rem;
+    padding: 3rem 15rem;
   }
 }
 
