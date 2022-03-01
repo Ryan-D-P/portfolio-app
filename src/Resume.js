@@ -2,7 +2,8 @@ import "./Resume.css";
 import { UserContext } from "./App.js";
 import { useContext } from "react";
 import resumeProfileImg from "./images/resumeprofile.jpg";
-import ghIcon from "./images/icons/gh-icon-light.svg";
+import ghIconLight from "./images/icons/gh-icon-light.svg";
+import ghIconDark from "./images/icons/gh-icon-dark.svg";
 
 const Resume = () => {
     const { theme, mode } = useContext(UserContext);
@@ -13,7 +14,7 @@ const Resume = () => {
                 <img src={ resumeProfileImg } alt="resume-profile-img" />
                 <div className="profile-title-wrapper">
                     <h2>Ryan-D-P</h2>
-                    <a href="http://github.com/Ryan-D-P" target="_blank" rel="noopener noreferrer"><img src={ ghIcon } alt="gh-profile-icon" /></a>
+                    <a href="http://github.com/Ryan-D-P" target="_blank" rel="noopener noreferrer"><img src={ mode === `light` ? ghIconLight : ghIconDark } alt="gh-profile-icon" /></a>
                 </div>
                 <div className="profile-details">
                     <p>rpitty@live.com</p>
