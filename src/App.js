@@ -19,7 +19,7 @@ function App() {
   const changeMode = () => setMode(mode === `light` ? `dark` : `light`);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={ `/portfolio-app` }>
       <div className={ `App ${mode}` }>
         <UserContext.Provider value={ {theme, setTheme, mode} }>
           <header className={ `header-content ${mode}` }>
