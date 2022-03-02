@@ -13,7 +13,7 @@
     color: hsl(240, 100%, 50%);
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1000px) {
     .Resume {
         flex-direction: row;
         justify-content: space-between;
@@ -72,7 +72,7 @@
     padding: 1rem;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1000px) {
     .resume-section {
         padding: 2rem;
     }
@@ -82,7 +82,7 @@
     margin: 0;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1000px) {
     .education > h3, .education > p, .experience > h3, .experience > p, .skills > ul {
         margin-left: var(--text-indent);
     }
@@ -92,7 +92,7 @@
     padding: 0rem 1rem;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1000px) {
     .skills-list {
         padding: 0;
     }
