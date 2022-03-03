@@ -35,11 +35,15 @@ const Resume = () => {
                     <h2 className={ `${theme}-theme-color` }>Experience</h2>
                     <div className="experience">
                         <h3>Interactive Comments Section (<a href="http://github.com/Ryan-D-P/interactive-comments-section" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/interactive-comments-section</a>)</h3>
-                        <p>A React project which displays a list of user comments from a local JSON file; the app also provide CRUD-like operations to interact with the comments, such as posting a new comment, replying to a comment, upvoting/downvoting a comment, deleting comments posted by the current user, and editing previously posted comments/replies of the current user.</p>
+                        <p>A React project which displays a list of user comments from a local JSON file; the app also provides CRUD-like operations to interact with the comments, such as posting a new comment, replying to a comment, upvoting/downvoting a comment, deleting comments posted by the current user, and editing previously posted comments/replies of the current user.</p>
                     </div>
                     <div className="experience">
                         <h3>Product Page (<a href="https://github.com/Ryan-D-P/product-page" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/product-page</a>)</h3>
                         <p>An e-commerce product page using React which includes an image gallery (with a lightbox), a button to add an item to the cart, and a cart menu which uses state to track the number of items in the cart and to display items in the cart according to their quantity and price.</p>
+                    </div>
+                    <div className="experience">
+                        <h3>Job Listings (<a href="https://github.com/Ryan-D-P/job-listings" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/job-listings</a>)</h3>
+                        <p>A React app which displays job listings, including tags from a local JSON file; filter tags may be selected (and un-selected) by the user to filter the displayed job listings according to their own tags.</p>
                     </div>
                 </section>
                 <section className={ `resume-section skills-section ${theme}-theme-bg-${mode}` }>
