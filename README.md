@@ -8,4 +8,4 @@ The home page provides a brief summary of my interests, skills, and experience w
 
 ## Resume Page
 
-This page shows my resume: which includes relevent education, expereince with React web devleopment, and the development skills that I possess.
+This page shows my resume: which includes relevant education, expereince with React web devleopment, and the development skills that I possess.
