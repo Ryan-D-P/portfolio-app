@@ -1,6 +1,7 @@
 # Ryan-D-P Portfolio Web Page
 
-This is my portfolio web page which includes my resume. Here's the live-site URL: [https://ryan-d-p.github.io/portfolio-app/](https://ryan-d-p.github.io/portfolio-app/).
+This is my portfolio web page which includes my resume.
+Here's the live-site URL: [https://ryan-d-p.github.io/portfolio-app/](https://ryan-d-p.github.io/portfolio-app/).
 
 ## Home Page
 
