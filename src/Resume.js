@@ -42,6 +42,10 @@ const Resume = () => {
                         <p>An e-commerce product page using React which includes an image gallery (with a lightbox), a button to add an item to the cart, and a cart menu which uses state to track the number of items in the cart and to display items in the cart according to their quantity and price.</p>
                     </div>
                     <div className="experience">
+                        <h3>IP Tracker with LeafletJS Map (<a href="https://github.com/Ryan-D-P/ip-address-tracker" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/ip-address-tracker</a>)</h3>
+                        <p>A React app which takes an IP as input and uses the geo.ipify API to get location, time, and ISP data; the data is then used to display the location using a LeafletJS map (React Leaflet).</p>
+                    </div>
+                    <div className="experience">
                         <h3>Job Listings (<a href="https://github.com/Ryan-D-P/job-listings" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/job-listings</a>)</h3>
                         <p>A React app which displays job listings, including tags from a local JSON file; filter tags may be selected (and un-selected) by the user to filter the displayed job listings according to their own tags.</p>
                     </div>
