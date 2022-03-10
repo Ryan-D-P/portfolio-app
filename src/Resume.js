@@ -1,4 +1,4 @@
-import "./Resume.css";
+import "./css/Resume.css";
 import { UserContext } from "./App.js";
 import { useContext } from "react";
 import resumeProfileImg from "./images/resumeprofile.jpg";
@@ -33,6 +33,10 @@ const Resume = () => {
                 </section>
                 <section className={ `resume-section experience-section ${theme}-theme-bg-${mode}` }>
                     <h2 className={ `${theme}-theme-color` }>Experience</h2>
+                    <div className="experience">
+                        <h3>Rest API Countries (<a href="https://github.com/Ryan-D-P/rest-countries" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/rest-countries</a>)</h3>
+                        <p>A React app using the Rest Countries API which displays all countries on the homepage with their information; the user can filter countries by name as well as by region, while each country links to a details page which displays more in-depth information for that specific country and includes links to those bordering it.</p>
+                    </div>
                     <div className="experience">
                         <h3>Interactive Comments Section (<a href="http://github.com/Ryan-D-P/interactive-comments-section" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/interactive-comments-section</a>)</h3>
                         <p>A React project which displays a list of user comments from a local JSON file; the app also provides CRUD-like operations to interact with the comments, such as posting a new comment, replying to a comment, upvoting/downvoting a comment, deleting comments posted by the current user, and editing previously posted comments/replies of the current user.</p>

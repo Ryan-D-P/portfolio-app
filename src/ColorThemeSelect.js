@@ -1,4 +1,4 @@
-import "./ColorThemeSelect.css";
+import "./css/ColorThemeSelect.css";
 import { UserContext } from "./App.js";
 import { useContext, useState } from "react";
 

@@ -1,6 +1,6 @@
 import { UserContext } from "./App";
 import { useContext } from "react";
-import "./Home.css";
+import "./css/Home.css";
 import htmlIconLight from "./images/icons/html-icon-light.svg";
 import htmlIconDark from "./images/icons/html-icon-dark.svg";
 import cssIconLight from "./images/icons/css-icon-light.svg";

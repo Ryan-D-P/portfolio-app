@@ -1,5 +1,5 @@
 :root {
-    --text-indent: 10rem;
+    --text-indent: 5rem;
 }
 
 .Resume {
@@ -72,10 +72,10 @@
     padding: 1rem;
 }
 
-@media screen and (min-width: 600px) {
-    .resume-section {
-        padding: 2rem;
-    }
+.experience-section {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .education > h3, .education > p, .experience > h3, .experience > p, .skills > h3, .skills > p {

@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import ColorThemeSelect from "./ColorThemeSelect";
 import Home from "./Home";
 import Resume from "./Resume";
-import "./ColorThemes.css";
+import "./css/ColorThemes.css";
 import themeLight from "./images/icons/theme-light.svg";
 import themeDark from "./images/icons/theme-dark.svg";
 import { createContext, useState } from "react";
