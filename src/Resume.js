@@ -19,6 +19,7 @@ const Resume = () => {
                 <div className="profile-details">
                     <p>rpitty@live.com</p>
                     <p>04 1165 7805</p>
+                    <p>Southport, QLD 4215</p>
                 </div>
             </div>
             <div className="sections-column">

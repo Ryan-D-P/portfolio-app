@@ -53,6 +53,12 @@
     width: 35px;
 }
 
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .profile-details > p {
     font-weight: 700;
 }
