@@ -9,10 +9,10 @@ import jsIcon from "./images/icons/js-icon.svg";
 import reactIcon from "./images/icons/react-icon.svg";
 
 const Home = () => {
-    const { mode } = useContext(UserContext);
+    const { mode, modeStyles } = useContext(UserContext);
 
     return (
-        <div className={ `Home ${mode}` }>
+        <div className={ `Home` } style={ modeStyles }>
             <h2>Front-end React Developer</h2>
             <div className="description-wrapper">
                 <p>I'm a front-end React developer; I have many years of experience with object-oriented programming, and I have subsequently focused on front-end React web development.</p>

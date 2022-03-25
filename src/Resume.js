@@ -6,11 +6,11 @@ import ghIconLight from "./images/icons/gh-icon-light.svg";
 import ghIconDark from "./images/icons/gh-icon-dark.svg";
 
 const Resume = () => {
-    const { theme, mode } = useContext(UserContext);
+    const { theme, mode, modeStyles, colorStyles } = useContext(UserContext);
 
     return (
-        <div className={ `Resume ${mode}` }>
-            <div className="profile-column">
+        <div className={ `Resume` }>
+            <div className="profile-column" style={ modeStyles }>
                 <img src={ resumeProfileImg } alt="resume-profile-img" />
                 <div className="profile-title-wrapper">
                     <h2>Ryan-D-P</h2>
@@ -23,8 +23,8 @@ const Resume = () => {
                 </div>
             </div>
             <div className="sections-column">
-                <section className={ `resume-section education-section ${theme}-theme-bg-${mode}` }>
-                    <h2 className={ `${theme}-theme-color` }>Education</h2>
+                <section className={ `resume-section education-section` } style={ {...colorStyles, color: `var(--dark)`} }>
+                    <h2 style={ {color: `var(--${theme}-theme-color)`} }>Education</h2>
                     <div className="education">
                         <h3>Bachelor of Computer Science (2020-2023)</h3>
                     </div>
@@ -32,8 +32,8 @@ const Resume = () => {
                         <h3>Diploma of Software Development (2018-2019)</h3>
                     </div>
                 </section>
-                <section className={ `resume-section experience-section ${theme}-theme-bg-${mode}` }>
-                    <h2 className={ `${theme}-theme-color` }>Experience</h2>
+                <section className={ `resume-section experience-section` } style={ {...colorStyles, color: `var(--dark)`} }>
+                    <h2 style={ {color: `var(--${theme}-theme-color)`} }>Experience</h2>
                     <div className="experience">
                         <h3>Rest API Countries (<a href="https://github.com/Ryan-D-P/rest-countries" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/rest-countries</a>)</h3>
                         <p>A React app using the Rest Countries API which displays all countries on the homepage with their information; the user can filter countries by name as well as by region, while each country links to a details page which displays more in-depth information for that specific country and includes links to those bordering it.</p>
@@ -55,8 +55,8 @@ const Resume = () => {
                         <p>A React app which displays job listings, including tags from a local JSON file; filter tags may be selected (and un-selected) by the user to filter the displayed job listings according to their own tags.</p>
                     </div>
                 </section>
-                <section className={ `resume-section skills-section ${theme}-theme-bg-${mode}` }>
-                    <h2 className={ `${theme}-theme-color` }>Skills</h2>
+                <section className={ `resume-section skills-section` } style={ {...colorStyles, color: `var(--dark)`} }>
+                    <h2 style={ {color: `var(--${theme}-theme-color)`} }>Skills</h2>
                     <div className="skills">
                         <ul className="skills-list">
                             <li>HTML5</li>

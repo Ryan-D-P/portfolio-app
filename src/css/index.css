@@ -55,11 +55,7 @@ p, a, li {
   align-items: center;
 }
 
-.light .header-content {
-  box-shadow: 0px 0px 15px 0px hsl(0, 0%, 0%);
-}
-
-.dark .header-content {
+.header-content {
   box-shadow: 0px 0px 15px 0px hsl(0, 0%, 0%);
 }
 
