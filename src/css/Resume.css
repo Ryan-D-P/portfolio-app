@@ -63,14 +63,6 @@
     font-weight: 700;
 }
 
-.light .profile-column {
-    color: hsl(0, 0%, 0%);
-}
-
-.dark .profile-column {
-    color: hsl(0, 0%, 100%);
-}
-
 .resume-section {
     display: flex;
     flex-direction: column;

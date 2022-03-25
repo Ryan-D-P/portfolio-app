@@ -10,26 +10,6 @@
     }
 }
 
-.light a {
-    color: hsl(0, 0%, 0%);
-}
-
-.dark a {
-    color: hsl(0, 0%, 100%);
-}
-
-.nav-link .orange-theme-color {
-    color: var(--orange-theme-color);
-}
-
-.nav-link .green-theme-color {
-    color: var(--green-theme-color);
-}
-
-.nav-link .blue-theme-color {
-    color: var(--blue-theme-color);
-}
-
 .nav-content {
     display: flex;
     align-items: center;
