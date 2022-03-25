@@ -76,7 +76,7 @@ p, a, li {
 .main-content {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 50px;
   padding: 1rem;
 }
 
