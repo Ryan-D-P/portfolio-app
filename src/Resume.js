@@ -39,7 +39,7 @@ const Resume = () => {
                         <p>A React app using the Rest Countries API which displays all countries on the homepage with their information; the user can filter countries by name as well as by region, while each country links to a details page which displays more in-depth information for that specific country and includes links to those bordering it.</p>
                     </div>
                     <div className="experience">
-                        <h3>Interactive Comments Section (<a href="http://github.com/Ryan-D-P/interactive-comments-section" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/interactive-comments-section</a>)</h3>
+                        <h3>Interactive Comments (<a href="http://github.com/Ryan-D-P/interactive-comments-section" target="_blank" rel="noopener noreferrer">https://github.com/Ryan-D-P/interactive-comments-section</a>)</h3>
                         <p>A React project which displays a list of user comments from a local JSON file; the app also provides CRUD-like operations to interact with the comments, such as posting a new comment, replying to a comment, upvoting/downvoting a comment, deleting comments posted by the current user, and editing previously posted comments/replies of the current user.</p>
                     </div>
                     <div className="experience">

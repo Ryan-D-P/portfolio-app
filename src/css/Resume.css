@@ -94,6 +94,16 @@
     }
 }
 
+.experience > p {
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .experience > p {
+        width: 70%;
+    }
+}
+
 .skills-list {
     padding: 0rem 1rem;
 }
