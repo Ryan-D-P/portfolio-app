@@ -13,7 +13,7 @@ const ColorThemeSelect = () => {
 
         if (theme === `blue`) {
             setTheme(`orange`);
-            setSelectorPosition(`left`);
+            setSelectorPosition(`flex-start`);
             return;
         }
         setTheme(themes[themes.indexOf(theme) + 1]);

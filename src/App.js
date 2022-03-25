@@ -18,20 +18,26 @@ function App() {
   // Change the lighting mode of the page
   const changeMode = () => setMode(mode === `light` ? `dark` : `light`);
 
-  // Define the current brightness styles
-  const brightnessStyle = {
+  // Define the current mode styles
+  const modeStyles = {
     backgroundColor: `var(--${mode})`,
+    color: mode === `light` ? `var(--dark)` : `var(--light)`,
+  };
+
+  // Define the current color styles
+  const colorStyles = {
+    backgroundColor: `var(--${theme}-theme-background-${mode})`,
   };
 
   return (
     <BrowserRouter basename={ `/portfolio-app` }>
-      <div className={ `App` } style={ brightnessStyle }>
-        <UserContext.Provider value={ {theme, setTheme, mode} }>
+      <div className={ `App` } style={ modeStyles }>
+        <UserContext.Provider value={ {theme, setTheme, mode, modeStyles, colorStyles} }>
           <header className={ `header-content` }>
             <h1 style={ {color: `var(--${theme}-theme-color)`} }>Ryan-D-P</h1>
             <Navbar />
           </header>
-          <main className={ `main-content` } style={ brightnessStyle }>
+          <main className={ `main-content` }>
             <div className="selectors-wrapper">
               <ColorThemeSelect />
               <div className="mode-selector-wrapper" onClick={ changeMode }>
