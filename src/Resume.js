@@ -26,7 +26,7 @@ const Resume = () => {
                 <section className={ `resume-section education-section ${theme}-theme-bg-${mode}` }>
                     <h2 className={ `${theme}-theme-color` }>Education</h2>
                     <div className="education">
-                        <h3>Bachelor of Computer Science (in progress)</h3>
+                        <h3>Bachelor of Computer Science (2020-2023)</h3>
                     </div>
                     <div className="education">
                         <h3>Diploma of Software Development (2018-2019)</h3>
