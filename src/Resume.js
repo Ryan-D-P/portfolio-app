@@ -62,9 +62,12 @@ const Resume = () => {
                             <li>HTML5</li>
                             <li>CSS</li>
                             <li>Sass</li>
-                            <li>Javascript</li>
-                            <li>ES6/ES7</li>
+                            <li>Javascript ES6/ES7</li>
                             <li>ReactJS</li>
+                            <li>Node.js</li>
+                            <li>Node Express</li>
+                            <li>MongoDB</li>
+                            <li>Mongoose</li>
                         </ul>
                     </div>
                 </section>

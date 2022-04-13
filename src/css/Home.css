@@ -13,21 +13,24 @@
 
 @media screen and (min-width: 1000px) {
     .description-wrapper {
-        width: 40%;
+        width: 45%;
     }
 }
 
 .tech-icons-wrapper {
+    align-self: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 50px;
+    max-width: 1400px;
     margin-top: 3rem;
 }
 
 @media screen and (min-width: 1000px) {
     .tech-icons-wrapper {
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
 }
 
