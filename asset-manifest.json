@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.284abed8.css",
-    "main.js": "/portfolio-app/static/js/main.7e1dde0f.js",
+    "main.css": "/portfolio-app/static/css/main.b790c276.css",
+    "main.js": "/portfolio-app/static/js/main.0d2ff6e6.js",
     "static/media/resumeprofile.jpg": "/portfolio-app/static/media/resumeprofile.628840c50acd19dacfb7.jpg",
+    "static/media/mongo-icon-light.svg": "/portfolio-app/static/media/mongo-icon-light.b7ffa060872d48bab7741a8a881a4ffd.svg",
+    "static/media/mongo-icon-dark.svg": "/portfolio-app/static/media/mongo-icon-dark.e460a0010f4344fca375c4af2d3efe5e.svg",
+    "static/media/node-icon-dark.svg": "/portfolio-app/static/media/node-icon-dark.2e202cc419c0bf15ac1c2abbb939eafa.svg",
+    "static/media/node-icon-light.svg": "/portfolio-app/static/media/node-icon-light.1295df67a3e69b12a533d7e59b0371ee.svg",
     "static/media/react-icon.svg": "/portfolio-app/static/media/react-icon.1063ac513a90381a05d8cdf6b492bda7.svg",
     "static/media/html-icon-dark.svg": "/portfolio-app/static/media/html-icon-dark.566300280779269bcd30cf692da4159a.svg",
     "static/media/html-icon-light.svg": "/portfolio-app/static/media/html-icon-light.a2bac77c2795fdca29fb43218192bd07.svg",
@@ -14,11 +18,11 @@
     "index.html": "/portfolio-app/index.html",
     "static/media/theme-light.svg": "/portfolio-app/static/media/theme-light.e86cdb50aeb6e11141d062f3a857aa49.svg",
     "static/media/theme-dark.svg": "/portfolio-app/static/media/theme-dark.ffcbd38db78e1f70c12f6b6b8926cce1.svg",
-    "main.284abed8.css.map": "/portfolio-app/static/css/main.284abed8.css.map",
-    "main.7e1dde0f.js.map": "/portfolio-app/static/js/main.7e1dde0f.js.map"
+    "main.b790c276.css.map": "/portfolio-app/static/css/main.b790c276.css.map",
+    "main.0d2ff6e6.js.map": "/portfolio-app/static/js/main.0d2ff6e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.284abed8.css",
-    "static/js/main.7e1dde0f.js"
+    "static/css/main.b790c276.css",
+    "static/js/main.0d2ff6e6.js"
   ]
 }
