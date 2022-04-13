@@ -7,8 +7,10 @@ import cssIconLight from "./images/icons/css-icon-light.svg";
 import cssIconDark from "./images/icons/css-icon-dark.svg";
 import jsIcon from "./images/icons/js-icon.svg";
 import reactIcon from "./images/icons/react-icon.svg";
-import nodeIcon from "./images/icons/node-icon.svg";
-import mongoIcon from "./images/icons/mongo-icon.svg";
+import nodeIconLight from "./images/icons/node-icon-light.svg";
+import nodeIconDark from "./images/icons/node-icon-dark.svg";
+import mongoIconLight from "./images/icons/mongo-icon-light.svg";
+import mongoIconDark from "./images/icons/mongo-icon-dark.svg";
 
 const Home = () => {
     const { mode, modeStyles } = useContext(UserContext);
@@ -40,11 +42,11 @@ const Home = () => {
                     <p>Functional components with props plus conditional render JSX template and components. Manage web app state and use react hooks including custom hooks.</p>
                 </div>
                 <div className="icon-wrapper">
-                    <img src={ nodeIcon } alt="tech-icon" />
+                    <img src={ mode === `light` ? nodeIconLight : nodeIconDark } alt="tech-icon" />
                     <p>Host a backend web server using an Express app which handles routes (including request methods) and middleware to facilitate client/server communication and data transfer.</p>
                 </div>
                 <div className="icon-wrapper">
-                    <img src={ mongoIcon } alt="tech-icon" />
+                    <img src={ mode === `light` ? mongoIconLight : mongoIconDark } alt="tech-icon" />
                     <p>Setup a NoSQL database on the cloud with Atlas which contains collections each containing many documents. Construct schemas and models to manage collections using Mongoose.</p>
                 </div>
             </div>
