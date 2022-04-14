@@ -17,9 +17,9 @@ const Home = () => {
 
     return (
         <div className={ `Home` } style={ modeStyles }>
-            <h2>Frontend MERN-Stack Developer</h2>
+            <h2>Frontend MERN Stack Developer</h2>
             <div className="description-wrapper">
-                <p>I'm a frontend MERN-stack developer with many years of experience in object-oriented programming.</p>
+                <p>I'm a frontend MERN stack developer with many years of experience in object-oriented programming.</p>
                 <p>I possess many fundamental web development skills, including: HTML5, CSS, Sass, responsive web design, Javascript (ES6/ES7), ReactJS, Git+Github, and source code debugging.</p>
                 <p>I've become familiar with CSS responsive layouts and styling (especially with flexbox layouts), while I'm currently practicing to develop my skills and experience with React: with which I am becoming far more comfortable, and learning to use its many powerful features to develop web applications.</p>
                 <p>Although I focus on frontend development: I also have knowledge of backend Node.js with Express, including MongoDB and Mongoose to develop client/server CRUD applications which use collections, documents, and schema-based data models.</p>
