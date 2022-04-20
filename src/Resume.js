@@ -26,10 +26,7 @@ const Resume = () => {
                 <section className={ `resume-section education-section` } style={ {...colorStyles, color: `var(--dark)`} }>
                     <h2 style={ {color: `var(--${theme}-theme-color)`} }>Education</h2>
                     <div className="education">
-                        <h3>Bachelor of Computer Science (2020-2023)</h3>
-                    </div>
-                    <div className="education">
-                        <h3>Diploma of Software Development (2018-2019)</h3>
+                        <h3>Diploma of Software Development (TAFE Queensland)</h3>
                     </div>
                 </section>
                 <section className={ `resume-section experience-section` } style={ {...colorStyles, color: `var(--dark)`} }>
