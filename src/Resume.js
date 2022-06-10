@@ -58,13 +58,11 @@ const Resume = () => {
                         <ul className="skills-list">
                             <li>HTML5</li>
                             <li>CSS</li>
-                            <li>TailwindCSS</li>
                             <li>JavaScript ES6/ES7</li>
                             <li>ReactJS</li>
                             <li>Node.js</li>
                             <li>Node Express</li>
                             <li>MongoDB</li>
-                            <li>Mongoose</li>
                         </ul>
                     </div>
                 </section>
