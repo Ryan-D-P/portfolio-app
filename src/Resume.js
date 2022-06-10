@@ -17,7 +17,7 @@ const Resume = () => {
                     <a href="http://github.com/Ryan-D-P" target="_blank" rel="noopener noreferrer"><img src={ mode === `light` ? ghIconLight : ghIconDark } alt="gh-profile-icon" /></a>
                 </div>
                 <div className="profile-details">
-                    <p>rpitty@live.com</p>
+                    <p>ryandp@mailfence.com</p>
                     <p>04 1165 7805</p>
                     <p>Southport, QLD 4215</p>
                 </div>
